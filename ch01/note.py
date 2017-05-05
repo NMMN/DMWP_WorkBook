@@ -32,7 +32,7 @@ def ex_modulo():
 ex_modulo()
 
 def ex_exponetiation():
-    """ 指数演算子 Exponetiation
+    """ 指数演算子 Exponetiation \n
         '**'
     """
     exp_value = 2**10
@@ -40,7 +40,7 @@ def ex_exponetiation():
 ex_exponetiation()
 
 def ex_type():
-    """ 型判定 type
+    """ 型判定 type \n
         type()
     """
     int_type = type(3)
@@ -49,7 +49,7 @@ def ex_type():
 ex_type()
 
 def ex_fraction():
-    """ 分数 Franction
+    """ 分数 Franction \n
         from fractions import Fraction
     """
     from fractions import Fraction
@@ -58,7 +58,27 @@ def ex_fraction():
 ex_fraction()
 
 def ex_complex():
-    """ 複素数 complex number
+    """ 複素数 complex number \n
         use 'j' in Python
     """
-    cpm_value1 = 2 + 3j
+    cpm_value = 2 + 3j
+    cpm_real = cpm_value.real
+    cpm_img = cpm_value.imag
+    print("cpm:{0}, real:{1}, img:{2}".format(cpm_value, cpm_real, cpm_img))
+
+    cpm_con = cpm_value.conjugate()
+    cpm_abs = abs(cpm_value)
+    print("cpm.con:{0}, abs(cpm):{1}".format(cpm_con, cpm_abs))
+ex_complex()
+
+def try_except_input():
+    """ 例外処理と入力 \n
+        catch ValueError
+    """
+    try:
+        input_value = input()
+    except expression as identifier:
+        pass
+
+
+
