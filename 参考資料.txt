@@ -1,1 +1,15 @@
+
+Editor(VSCode)
+Visual Studio CodeでPythonの開発環境構築を構築してみた。
 http://dev.classmethod.jp/tool/python-pyenv-vscode/
+
+Stack Oveflow
+How to execute Python code from within Visual Studio code
+http://stackoverflow.com/questions/29987840/how-to-execute-python-code-from-within-visual-studio-code
+
+Python
+Pylint message
+http://pylint-messages.wikidot.com/
+
+matplotlib-vennがpip installでいなかった。下記サイトを参考にして解決
+http://qiita.com/kenichi-t/items/7319b3876ae7f0d3817c
