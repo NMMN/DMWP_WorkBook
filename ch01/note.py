@@ -78,10 +78,8 @@ def ex_input():
     """ 入力 \n
         input
     """
-    #実行するといちいち入力を求められてしまうので、コメントアウト
-    # input_value = input('input an Integer!')
-    # print(input_value)
-ex_input()
+    input_value = input('input an Integer!')
+    print(input_value)
 
 def ex_is_integer():
     """ 整数判定 \n
@@ -100,9 +98,11 @@ def ex_for_in_range():
     print("loop end!")
 
 """ 単位変換Tips
+    1 km = 0.621 mile
     1 mile = 1.609 km
-    1 pond = 0.453 kg
+    1 pounds = 0.453 kg
     C = (F - 32) * ( 5 / 9)
+    (C / (5/9)) + 32 = F
 """
 
 
@@ -116,6 +116,7 @@ def main():
     ex_fraction()
     ex_complex()
     ex_try_except()
+    # ex_input() #実行するといちいち入力を求められてしまうので、コメントアウト
     ex_is_integer()
     ex_for_in_range()
 

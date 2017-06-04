@@ -1,6 +1,6 @@
 """ Chapter1 Programming Charenge """
 
-def prob_1_1():
+def prob1_1():
     """ 1-1 奇数偶数自動判定プログラム
             1.入力された数が奇数か偶数か判定する。
             2.入力された数と、その後に9つの奇数か偶数を続けて表示する
@@ -24,7 +24,7 @@ def prob_1_1():
 
 def main():
     """ def main """
-    prob_1_1()
+    prob1_1()
 
 if __name__ == '__main__':
     main()

@@ -14,21 +14,19 @@
 		"description": "Log output to console"
 	}
 */
-//pythonを書く上で欲しいと思ったスニペット.
-//これをpython.jsonに適宜コピる
-//  File > Preferences (Code > Preferences on Mac)
 	"Print with format":{
 		"prefix":"printf",
 		"body": [
-			"print(\"$1\".format())"
+			"print(\"$1: {0}\".format(val))"
 		],
 		"description": "Print with format"
 	},
 	"Python Script Template":{
 		"prefix":"py_template",
 		"body":[
-			"\"\"\" script_doc \"\"\" ",
+			"\"\"\" script_doc \"\"\"",
 			"def main():",
+			"\t\"\"\" def main \"\"\"",
 			"\tpass",
 			"\n",
 			"if __name__ == '__main__':",
