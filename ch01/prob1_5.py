@@ -14,13 +14,13 @@ def prob_1_5():
     """
     while 1:
         print_menu()
-        user_input = ""
         try:
-            user_input = int(input())
-            exit_flag = call_method(user_input)
-
-            if exit_flag:
+            user_input = input()
+            if user_input == "quit":
+                print("Good Bye !!")
                 break
+            call_method(int(user_input))
+
         except ValueError:
             print("Please Input Value of Number!")
 
@@ -31,7 +31,7 @@ def print_menu():
     print("2. 乗算表生成器")
     print("3. 距離、質量、温度変換プログラム")
     print("4. 分数電卓")
-    print("\t 上記以外はプログラムの終了")
+    print("\t \"quit\" プログラムの終了 ")
 
 def call_method(mode):
     """ モードで指定されるプログラムを無限ループする """
@@ -62,4 +62,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
